@@ -1,4 +1,7 @@
 {
   "usingComponents": {
+    "w-banner": "./childCpts/banner/index",
+    "w-recommend": "./childCpts/recommend/index",
+    "w-feature": "./childCpts/feature/index"
   }
 }

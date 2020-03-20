@@ -1,15 +1,17 @@
-Page({
-    data: {},
-    onLoad: function (options) {
+import {getMutiData} from "../../utils/getData/home";
 
-    }
-});
-Component({
-  pageLifetimes:{
-    show() {
-      if (typeof this.getTabBar === 'function' && this.getTabBar()){
-        this.getTabBar().setData({active: 0})
-      }
-    }
+Page({
+  data: {
+    banner: [],
+    recommend: [],
+  },
+  onLoad: function (options) {
+    getMutiData()
+      .then(value => {
+        const banner = value.data.banner.list;
+        const recommend = value.data.recommend.list;
+        this.setData({banner,recommend})
+      })
+      .catch(reason => console.log(reason))
   }
 });

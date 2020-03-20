@@ -1,1 +1,3 @@
-<view>home</view>
+<w-banner list="{{banner}}"/>
+<w-recommend list="{{recommend}}"/>
+<w-feature/>

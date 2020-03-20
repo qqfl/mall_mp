@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48f4b900-f8e3-4a85-9d9c-4dd2fd128dd6" name="Default Changelist" comment="" />
+    <list default="true" id="48f4b900-f8e3-4a85-9d9c-4dd2fd128dd6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/icontabbardiscoveryup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/icontabbardiscoveryupactive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/icontabbarhomeup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/icontabbarhomeupactive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/icontabbarmyup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/icontabbarmyupactive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/icontabbarshoppingup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/icontabbarshoppingupactive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/home/childCpts/banner/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/home/childCpts/banner/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/home/childCpts/banner/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/home/childCpts/banner/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/home/childCpts/feature/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/home/childCpts/feature/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/home/childCpts/feature/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/home/childCpts/recommend/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/home/childCpts/recommend/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/home/childCpts/recommend/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/home/childCpts/recommend/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/WxMock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/getData/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/mock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/mockData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/network.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-tab-bar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-tab-bar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-tab-bar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-tab-bar/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/childCpts/feature/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cart/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/category/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/category/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/profile/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/profile/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,14 +55,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Wechat mini program component js file" />
-        <option value="Wechat mini program component json file" />
         <option value="Wechat mini program page js file(Page API)" />
         <option value="Wechat mini program page json file(Page API)" />
+        <option value="JavaScript File" />
+        <option value="Wechat mini program component js file" />
+        <option value="Wechat mini program component json file" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YiDFAOF03hdbf8b62f7cg3wZOY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,10 +79,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/utils" />
+    <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\mall_mp\pages\home\childCpts\banner" />
+      <recent name="C:\Users\Administrator\Desktop\mall_mp\utils" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\mall_mp\utils" />
+      <recent name="C:\Users\Administrator\Desktop\mall_mp\assets\img" />
       <recent name="C:\Users\Administrator\Desktop\mall_mp" />
     </key>
   </component>
@@ -53,16 +107,43 @@
       <workItem from="1583416586304" duration="1500000" />
       <workItem from="1583418170984" duration="1233000" />
       <workItem from="1583672144628" duration="6474000" />
+      <workItem from="1584633259141" duration="816000" />
+      <workItem from="1584707558275" duration="10378000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583417798641">
+    <state x="436" y="1" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584714877580">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1583417798641" />
+    <state x="436" y="1" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738@0.0.1366.738" timestamp="1584714877580" />
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584711209385">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1584711209385" />
+    <state x="427" y="73" key="VCS.ChangeListViewerDialog" timestamp="1584633043313">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="427" y="73" key="VCS.ChangeListViewerDialog/0.0.1366.738@0.0.1366.738" timestamp="1584633043313" />
+    <state x="469" y="263" key="git4idea.ui.GitResetDialog" timestamp="1584633101755">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="469" y="263" key="git4idea.ui.GitResetDialog/0.0.1366.738@0.0.1366.738" timestamp="1584633101755" />
   </component>
 </project>

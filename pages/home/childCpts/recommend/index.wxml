@@ -1,0 +1,6 @@
+<van-grid column-num="4" border="{{false}}">
+  <van-grid-item use-slot wx:for="{{list}}" wx:key="index">
+    <image class="rcdImage" src="{{item.image}}" mode="widthFix"/>
+    <text class="redText">{{item.title}}</text>
+  </van-grid-item>
+</van-grid>
