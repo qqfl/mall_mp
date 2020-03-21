@@ -1,3 +1,4 @@
-<w-banner list="{{banner}}"/>
-<w-recommend list="{{recommend}}"/>
-<w-feature/>
+<w-banner list="{{banners}}"/>
+<w-recommend list="{{recommends}}"/>
+<view class="splitLine"></view>
+<w-feature list="{{features}}"/>

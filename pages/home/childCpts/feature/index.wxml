@@ -1,2 +1,2 @@
-<text>本周流行</text>
-<!--<w-recommend list="{{list}}"/>-->
+<view class="title">本周流行</view>
+<w-recommend list="{{list}}"/>
