@@ -2,3 +2,5 @@
 <w-recommend list="{{recommends}}"/>
 <view class="splitLine"></view>
 <w-feature list="{{features}}"/>
+<view class="splitLine"></view>
+<w-tab pops="{{tabData.pop.list}}" news="{{tabData.new.list}}" sells="{{tabData.sell.list}}" bind:myEvent="setTabActive"/>

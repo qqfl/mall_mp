@@ -2,6 +2,9 @@
   "usingComponents": {
     "w-banner": "./childCpts/banner/index",
     "w-recommend": "./childCpts/recommend/index",
-    "w-feature": "./childCpts/feature/index"
-  }
+    "w-feature": "./childCpts/feature/index",
+    "w-tab": "./childCpts/tab/index"
+  },
+  "navigationBarTitleText": "首页",
+  "onReachBottomDistance": 50
 }
