@@ -1,0 +1,6 @@
+<block class="lists" wx:for="{{list}}" wx:key="index">
+  <view class="listItem">
+    <image src="{{item.img}}" mode="aspectFill"/>
+    <view>{{item.title}}</view>
+  </view>
+</block>

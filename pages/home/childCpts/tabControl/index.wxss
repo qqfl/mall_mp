@@ -1,0 +1,6 @@
+.tabControl{display: flex;justify-content: space-between;position: relative;background-color: #fff;}
+.item{flex: 1;height: 44px;line-height: 44px;text-align: center;font-size: 28rpx;}
+.active{height: 3px;width: 90rpx;background-color: #ee0a24;position: absolute;bottom: 0;transform: translateX(80rpx);transition-duration: 0.3s;}
+.act0{transform: translateX(80rpx);}
+.act1{transform: translateX(330rpx);}
+.act2{transform: translateX(580rpx);}

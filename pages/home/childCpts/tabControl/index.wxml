@@ -1,0 +1,4 @@
+<view class="tabControl">
+  <view class="item" wx:for="{{titles}}" wx:key="index" bind:tap="clickActive" data-ind="{{index}}">{{item}}</view>
+  <view class="active act{{active}}"/>
+</view>

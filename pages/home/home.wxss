@@ -1,1 +1,3 @@
 .splitLine{height: 10px;background-color: #eee;}
+.fixed{position: fixed;top: 0;width: 100%;z-index: -1;}
+.fixedAct{z-index: 2;}

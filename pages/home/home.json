@@ -3,7 +3,9 @@
     "w-banner": "./childCpts/banner/index",
     "w-recommend": "./childCpts/recommend/index",
     "w-feature": "./childCpts/feature/index",
-    "w-tab": "./childCpts/tab/index"
+    "w-tab-control": "./childCpts/tabControl/index",
+    "w-tab-item": "../../component/tabItem/index",
+    "w-back-top": "../../component/backTop/index"
   },
   "navigationBarTitleText": "首页",
   "onReachBottomDistance": 50

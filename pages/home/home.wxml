@@ -1,6 +1,9 @@
 <w-banner list="{{banners}}"/>
-<w-recommend list="{{recommends}}"/>
+<w-recommend list="{{recommends}}" bind:isImgLoad="imgLoadOver"/>
 <view class="splitLine"></view>
-<w-feature list="{{features}}"/>
+<w-feature list="{{features}}" bind:isImgLoad="imgLoadOver"/>
 <view class="splitLine"></view>
-<w-tab pops="{{tabData.pop.list}}" news="{{tabData.new.list}}" sells="{{tabData.sell.list}}" bind:myEvent="setTabActive"/>
+<w-tab-control class="fixed {{isTabFixed ? 'fixedAct' : ''}}" titles="{{tabsCH}}" bind:myTabEvent="myTabClick" id="myTabControl1"/>
+<w-tab-control titles="{{tabsCH}}" bind:myTabEvent="myTabClick" id="myTabControl2"/>
+<w-tab-item list="{{tabData[tabType].list}}"/>
+<w-back-top wx:if="{{showBackTop}}"/>

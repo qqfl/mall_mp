@@ -1,2 +1,2 @@
 <view class="title">本周流行</view>
-<w-recommend list="{{list}}"/>
+<w-recommend list="{{list}}" bind:isImgLoad="myImgLoad"/>

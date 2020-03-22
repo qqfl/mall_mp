@@ -6,5 +6,9 @@ Component({
       }
     },
     data: {},
-    methods: {}
+    methods: {
+      imgLoad(){
+        this.triggerEvent('isImgLoad');
+      }
+    }
 });
