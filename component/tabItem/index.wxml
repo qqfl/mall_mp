@@ -1,6 +1,6 @@
-<block class="lists" wx:for="{{list}}" wx:key="index">
-  <view class="listItem">
+<view class="lists">
+  <view class="listItem" wx:for="{{list}}" wx:key="index">
     <image src="{{item.img}}" mode="aspectFill"/>
     <view>{{item.title}}</view>
   </view>
-</block>
+</view>

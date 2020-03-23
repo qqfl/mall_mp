@@ -1,5 +1,7 @@
 {
   "usingComponents": {
+    "w-side-bar": "./childCpts/sideBar/index",
+    "w-product-list": "./childCpts/productList/index"
   },
   "navigationBarTitleText": "分类"
 }

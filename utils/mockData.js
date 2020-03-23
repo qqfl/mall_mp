@@ -223,13 +223,13 @@ function setGoodsList() {
 //分类页数据模拟
 (function () {
   const list = ["流行", "上衣", "裤子", "裙子", "内衣", "女鞋", "男友", "包包", "运动", "配饰", "美妆", "个护", "家居", "百货", "母婴", "食品"];
-  Mock.mock(HOST + 'home/categorytype', {"data": {"list": list}});
+  Mock.mock(HOST + 'category/categorytype', {"data": {"list": list}});
 })();
 
 (function () {
   const data =
-    [{
-
+    [
+      {
       "img": "https://s2.mogucdn.com/mlcdn/c45406/190221_0e9dcfj2ecb224ae8h221762gdi5h_130x130.jpg_200x9999.v1c7E.81.webp",
       "tit": "棉衣棉服"
     }, {
@@ -283,7 +283,8 @@ function setGoodsList() {
     }, {
       "img": "https://s2.mogucdn.com/mlcdn/c45406/180227_069ci8he1419k16did4c1lk9l5j3g_120x120.jpg_200x9999.v1c7E.81.webp",
       "tit": "小白鞋"
-    }];
+    }
+    ];
   const allData = [];
   for (let i = 0; i < 16; i++) {
     const arr = [];
@@ -293,7 +294,7 @@ function setGoodsList() {
     }
     allData.push(arr)
   }
-  Mock.mock(HOST + 'home/categorydata', {"data": {"list": allData}});
+  Mock.mock(HOST + 'category/categorydata', {"data": {"list": allData}});
 })();
 
 //商品详情数据
@@ -494,7 +495,7 @@ function setGoodsList() {
       "https://s11.mogucdn.com/mlcdn/c024f5/190417_2d51ljj2a42lddkg49ibag494g3ca_1125x540.png_468x468.webp"]
   ];
   for (let i = 0; i < 3; i++) {
-    Mock.mock(HOST + 'home/detaildata?id='+i, {
+    Mock.mock(HOST + 'detail/detaildata?id='+i, {
       "data": {
         "info": {
           id: '3386742'+i,

@@ -1,1 +1,2 @@
-<view>cate</view>
+<w-side-bar typeList="{{typeList}}" bind:changeSideBar="myChangeSideBar"/>
+<w-product-list list="{{dataList[actSideBar]}}"/>

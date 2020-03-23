@@ -1,0 +1,7 @@
+<scroll-view scroll-y="true" class="sideBar">
+  <van-sidebar active-key="{{ activeKey }}" bind:change="onChange">
+    <block wx:for="{{typeList}}" wx:key="index">
+      <van-sidebar-item title="{{item}}" />
+    </block>
+  </van-sidebar>
+</scroll-view>
