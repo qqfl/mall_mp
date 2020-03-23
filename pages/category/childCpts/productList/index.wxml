@@ -2,6 +2,7 @@
   <van-grid column-num="3" border="{{ false }}">
     <van-grid-item use-slot wx:for="{{ list }}" wx:key="index" bind:tap="goDetail" data-ind="{{index}}">
       <image
+        mode="widthFix"
         style="width: 100%; height: 90px;"
         src="{{item.img}}"
       />

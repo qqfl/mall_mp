@@ -1,0 +1,11 @@
+.originalPrice{display: inline-block;font-size: 60rpx;vertical-align: middle;padding-right: 20rpx;}
+.originalPrice text{display: inline-block;font-size: 32rpx;vertical-align: text-top;padding-top: 10rpx;}
+.right{display: inline-block;vertical-align: middle;}
+.discountPrice{color: #999;text-decoration: line-through;margin-bottom: 10rpx;}
+.discount{color: rgb(255, 34, 85);background-color: rgb(255, 232, 238);text-align: center;margin-top: 10rpx;}
+.title{width: 70vw;}
+.bottom{position: relative;color: #999;}
+.postage{display: inline-block;}
+.address{display: inline-block;position: absolute;right: 0;}
+.pt24{padding-top: 24rpx;}
+.pb24{padding-bottom: 24rpx;}

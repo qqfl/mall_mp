@@ -12,7 +12,7 @@ Component({
         wx.navigateTo({
           url:"../detail/detail",
           success(res){
-            res.eventChannel.emit('acceptDataFromOpenerPage',{id: ind%3})
+            res.eventChannel.emit('setPageData',{id: ind%3})
           }
         })
       }

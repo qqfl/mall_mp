@@ -1,0 +1,12 @@
+<view class="pt24">
+  <view class="originalPrice"><text>¥</text>{{info.originalPrice}}</view>
+  <view class="right">
+    <view class="discountPrice">¥{{info.discountPrice}}</view>
+    <view class="discount">{{info.discount}}</view>
+  </view>
+</view>
+<view class="title pt24">{{info.title}}</view>
+<view class="bottom pt24 pb24">
+  <view class="postage">{{info.postage}}</view>
+  <view class="address">{{info.address}}</view>
+</view>

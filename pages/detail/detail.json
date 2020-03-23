@@ -1,4 +1,6 @@
 {
   "usingComponents": {
+    "w-banner": "../../component/banner/index",
+    "w-price": "./childCpts/price/index"
   }
 }

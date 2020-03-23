@@ -1,6 +1,6 @@
 {
   "usingComponents": {
-    "w-banner": "./childCpts/banner/index",
+    "w-banner": "../../component/banner/index",
     "w-recommend": "./childCpts/recommend/index",
     "w-feature": "./childCpts/feature/index",
     "w-tab-control": "./childCpts/tabControl/index",

@@ -1,1 +1,6 @@
-detail
+<w-banner list="{{bannerImg}}" height="100vw"/>
+<view class="myWrap">
+  <w-price info="{{detail}}"/>
+</view>
+<view class="splitLine"></view>
+
