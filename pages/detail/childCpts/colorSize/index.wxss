@@ -1,7 +1,3 @@
-.sel-btn.true .van-button{
-  color: #ed4566!important;
-  border-color: #ed4566!important;
-}
 .preview-cont {
   line-height: 1.5;
 }

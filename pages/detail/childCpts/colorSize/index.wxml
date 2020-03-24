@@ -22,7 +22,17 @@
     <scroll-view class="can-scroll" scroll-y="true">
       <view class="small-tit">颜色</view>
       <view>
-        <van-button wx:for="{{info.color}}" wx:key="index" class="sel-btn {{index === colorIndex}}" type="default" size="small" bind:tap="colorClick" data-index="{{index}}">{{item.col}}</van-button>
+        <van-button
+          wx:for="{{info.color}}"
+          wx:key="index"
+          class="sel-btn"
+          custom-style="{{index === colorIndex ? actStyle : ''}}"
+          type="default"
+          size="small"
+          bind:tap="colorClick"
+          data-index="{{index}}">
+          {{item.col}}
+        </van-button>
       </view>
       <view class="small-tit">尺码</view>
       <view>
@@ -37,3 +47,5 @@
     </view>
   </view>
 </van-popup>
+
+<view class="splitLine"></view>

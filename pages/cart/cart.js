@@ -1,9 +1,6 @@
 Page({
-  data: {abc: 2},
+  data: {},
   onLoad: function (options) {
 
-  },
-  cli(e){
-    this.setData({abc: e.currentTarget.dataset.id})
   }
 });

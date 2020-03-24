@@ -10,7 +10,8 @@ Component({
     color:'',
     size:'',
     sto:'',
-    colorIndex:'',
+    colorIndex:null,
+    actStyle: 'color: #ed4566;border-color: #ed4566;'
   },
   methods: {
     showPopup() {
