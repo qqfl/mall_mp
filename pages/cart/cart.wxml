@@ -1,1 +1,4 @@
-<view>cart</view>
+
+<block wx:for="{{4}}" wx:key="index">
+  <view data-class="{{abc}}" bind:tap="cli" data-id="{{index}}">{{index}}-{{abc}}</view>
+</block>

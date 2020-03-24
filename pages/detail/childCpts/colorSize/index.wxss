@@ -1,0 +1,67 @@
+.sel-btn.true .van-button{
+  color: #ed4566!important;
+  border-color: #ed4566!important;
+}
+.preview-cont {
+  line-height: 1.5;
+}
+
+.preview-img {
+  margin: -72rpx 30rpx 0;
+  width: 160rpx;
+}
+
+.preview-price {
+  display: inline-block;
+}
+
+.price-icon{
+  display: inline-block;
+  vertical-align: text-top;
+  padding-top: 6rpx;
+}
+
+.now-price {
+  font-size: 48rpx;
+  vertical-align: text-top;
+}
+
+.can-scroll {
+  margin-top: 20rpx;
+  overflow-y: auto;
+  max-height: 60vh;
+  padding: 10rpx 16rpx 30rpx;
+  margin-bottom: 88rpx;
+}
+
+.sel-btn {
+  border-color: #bbb;
+  margin-right: 20rpx;
+  margin-bottom: 30rpx;
+}
+
+.small-tit {
+  padding-bottom: 8rpx;
+}
+
+.bot-btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.bot-btn button {
+  width: 50%;
+  border-color: transparent;
+}
+
+.bot-btn .btn1 {
+  color: #ff5777;
+  background-color: #ffe6e8;
+}
+
+.bot-btn .btn2 {
+  color: #fff;
+  background-color: #ff5777;
+}

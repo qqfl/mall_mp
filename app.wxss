@@ -1,4 +1,4 @@
-page{color: #333;font-size: 30rpx;}
+page{color: #333;font-size: 24rpx;}
 .splitLine{height: 10px;background-color: #eee;}
 .myWrap{padding-left: 28rpx;padding-right: 28rpx;}
 

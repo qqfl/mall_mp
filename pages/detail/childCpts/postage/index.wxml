@@ -1,0 +1,30 @@
+<van-cell is-link bind:click="showPopup" border="{{ false }}">
+  <view slot="title">
+    <view class="van-cell-text cellItem" wx:for="{{postage}}" wx:key="index"><van-icon class="cellIcon" name="passed" />{{item}}</view>
+  </view>
+</van-cell>
+<van-popup
+  show="{{ show }}"
+  closeable
+  position="bottom"
+  custom-style="max-height: 70%"
+  bind:close="onClose"
+>
+  <view class="d-t py12">服务说明</view>
+  <view class="d-border py12">
+    <view class="p-black">72小时发货</view>
+  </view>
+  <view class="d-border py12">
+    <view class="p-black">7天无理由退货</view>
+    <view class="p-gray">物流签收后7天内买家可无理由退货，需满足退货条件</view>
+  </view>
+  <view class="d-border py12">
+    <view class="p-black">退货补运费</view>
+    <view class="p-gray">用户发起退货且绑定提现银行卡，可获6-18元运费补贴</view>
+  </view>
+  <view class="d-border py12">
+    <view class="p-black">白付美分期购</view>
+    <view class="p-gray">白付美分期购：在我的钱包 →白付美页面开通即可使用分期购。本月消费，分3/6/12期还款，每月只还一点点，轻松享受大牌好货。（分12期只对部分用户开放。）</view>
+  </view>
+  <view class="d-b py12">全国包邮</view>
+</van-popup>

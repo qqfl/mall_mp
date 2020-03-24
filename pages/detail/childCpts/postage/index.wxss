@@ -1,0 +1,21 @@
+.cellItem{display: inline-block;font-size: 26rpx;margin-right:28rpx;}
+.cellIcon{vertical-align: text-top;margin-top: 4rpx;color: #fc275a;}
+.d-t {
+  color: #999;
+  text-align: center;
+  font-size: 32rpx;
+  padding-top: 40rpx;
+}
+
+.d-border {
+  border-bottom: 1px solid #dfdfdf;
+  line-height: 1.5;
+}
+
+.p-gray {
+  color: #999;
+}
+.py12{
+  margin: 0 24rpx;
+  padding: 24rpx 0;
+}
