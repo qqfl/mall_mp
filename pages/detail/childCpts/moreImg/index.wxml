@@ -1,0 +1,9 @@
+<view class="parent-class">
+  <view class="line1"></view>
+  <view class="description">{{info.des}}</view>
+  <view class="line2"></view>
+  <view class="show">效果展示</view>
+  <view class="moreImg">
+    <image wx:for="{{info.detail}}" wx:key="index" src="{{item}}" mode="widthFix"/>
+  </view>
+</view>

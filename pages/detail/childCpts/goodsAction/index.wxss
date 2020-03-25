@@ -1,0 +1,10 @@
+.btn1{
+  border-width: 0;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(to left, rgb(255, 164, 186), rgb(255, 87, 119));
+}
+.btn2{
+  color: rgb(255, 255, 255);
+  background: rgb(255, 87, 119);
+  border-color: rgb(255, 87, 119);
+}

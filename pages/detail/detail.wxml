@@ -1,8 +1,17 @@
-<w-banner list="{{bannerImg}}" height="100vw"/>
-<view class="myWrap">
-  <w-price info="{{detail}}"/>
-</view>
-<view class="splitLine"></view>
-<w-postage/>
-<view class="splitLine"></view>
-<w-color-size info="{{detail}}"/>
+<scroll-view scroll-y="true" class="detailWrap">
+  <w-banner list="{{bannerImg}}" height="100vw"/>
+  <view class="myWrap">
+    <w-price info="{{detail}}"/>
+  </view>
+  <view class="splitLine"></view>
+  <w-postage/>
+  <view class="splitLine"></view>
+  <w-color-size info="{{detail}}"/>
+  <view class="splitLine"></view>
+  <w-sale info="{{detail}}"/>
+  <view class="splitLine"></view>
+  <w-shop info="{{detail.shop}}"/>
+  <view class="splitLine"></view>
+  <w-more-img info="{{detail}}" parent-class="myWrap"/>
+</scroll-view>
+<w-goods-action/>

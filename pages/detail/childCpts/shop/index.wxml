@@ -1,0 +1,10 @@
+<van-cell center is-link border="{{ false }}">
+  <view class="shop" slot="title">
+    <image class="shopImg" src="{{info.img}}" mode="widthFix"/>
+    <view class="van-cell-text saleText">
+      <view class="shopItem">{{info.tit}}</view>
+      <view class="shopItem"><text class="rate">推荐指数</text> <van-rate class="rate" value="{{info.star}}"/></view>
+      <view class="shopItem">在架商品数 {{info.products}}</view>
+    </view>
+  </view>
+</van-cell>

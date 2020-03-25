@@ -3,6 +3,10 @@
     "w-banner": "../../component/banner/index",
     "w-price": "./childCpts/price/index",
     "w-postage": "./childCpts/postage/index",
-    "w-color-size": "./childCpts/colorSize/index"
+    "w-color-size": "./childCpts/colorSize/index",
+    "w-goods-action": "./childCpts/goodsAction/index",
+    "w-sale": "./childCpts/sale/index",
+    "w-shop": "./childCpts/shop/index",
+    "w-more-img": "./childCpts/moreImg/index"
   }
 }

@@ -1,0 +1,30 @@
+.line1,.line2{
+  display: inline-block;
+  width: 30%;
+  border-bottom: 1px solid;
+}
+.line1:after,.line2:after{
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  background-color: #000;
+}
+
+.line2{
+  position: relative;
+  right: 0;
+}
+
+.description{
+  color: #999;
+}
+
+.show{
+  padding: 20rpx 0;
+  font-size: 32rpx;
+}
+.moreImg image{
+  width: 100%;
+  margin-top: -20rpx;
+}

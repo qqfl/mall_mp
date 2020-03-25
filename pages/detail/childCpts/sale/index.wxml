@@ -1,0 +1,5 @@
+<van-cell is-link border="{{ false }}">
+  <view slot="title">
+    <view class="van-cell-text saleText">买家评价 {{info.comment}} | 销量 {{info.sales}}</view>
+  </view>
+</van-cell>
