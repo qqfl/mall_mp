@@ -9,19 +9,26 @@
   width: 3px;
   height: 3px;
   background-color: #000;
+  vertical-align: bottom;
+  position: absolute;
+  margin-top: -1rpx;
 }
 
 .line2{
-  position: relative;
-  right: 0;
+  float: right;
+}
+
+.line2:after{
+  right: 24rpx;
 }
 
 .description{
   color: #999;
+  padding: 30rpx 0;
 }
 
 .show{
-  padding: 20rpx 0;
+  padding: 40rpx 0;
   font-size: 32rpx;
 }
 .moreImg image{

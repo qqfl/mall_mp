@@ -52,7 +52,7 @@
       <van-stepper value="{{ 1 }}" bind:change="onChange" disable-input="{{true}}" />
     </scroll-view>
     <view class="bot-btn">
-      <van-button custom-class="btn1" type="primary" square>加入购物车</van-button>
+      <van-button custom-class="btn1" type="primary" square bind:tap="goodsAddCart">加入购物车</van-button>
       <van-button custom-class="btn2" type="primary" square>立即购买</van-button>
     </view>
   </view>

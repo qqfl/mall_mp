@@ -1,0 +1,18 @@
+<block wx:for="{{info}}" wx:key="index">
+  <view class="pr">
+    <van-checkbox class="pa" value="{{ item.my_checked }}" bind:change="onChange" data-id="{{item.id}}"/>
+    <van-card
+      custom-class="rootCard"
+      thumb-mode="aspectFill"
+      num="{{item.my_qty}}"
+      price="{{item.discountPrice}}"
+      desc="颜色：{{item.color[item.my_ci].col}}，尺码：{{item.size[item.my_si]}}"
+      title="{{item.title}}"
+      thumb="{{item.color[item.my_ci].img}}"
+    >
+      <view slot="footer">
+        <van-button size="mini" type="danger">删除</van-button>
+      </view>
+    </van-card>
+  </view>
+</block>

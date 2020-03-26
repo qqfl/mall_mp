@@ -20,7 +20,7 @@ Component({
     showPopup() {
       const ci = this.data.colorIndex;
       const si = this.data.sizeIndex;
-      this.setData({show: true,});
+      this.setData({show: true});
       this.colorSet(ci);
       this.sizeSet(si);
     },
@@ -49,6 +49,10 @@ Component({
     },
     sizeSet(index){
       this.setData({size: this.data.info.size[index]});
+    },
+    goodsAddCart(){
+      this.triggerEvent('addCart',{ci:this.data.colorIndex, si:this.data.sizeIndex, qty:this.data.qty});
+      this.onClose();
     }
   }
 });

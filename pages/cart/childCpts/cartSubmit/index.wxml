@@ -1,0 +1,7 @@
+<van-submit-bar
+  price="{{totalPrice*100}}"
+  button-text="去结算"
+  bind:submit="onClickButton"
+>
+  <van-checkbox value="{{ checked }}" bind:change="onChange">全选</van-checkbox>
+</van-submit-bar>

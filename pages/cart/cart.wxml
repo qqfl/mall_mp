@@ -1,1 +1,2 @@
-<view>cart</view>
+<w-goods-item info="{{cartList}}" bind:checkBoxChange="checkBoxClick" class="cartList"/>
+<w-submit id="submit" cartLength="{{cartLength}}" totalPrice="{{totalPrice}}" bind:allCheckedClick="allCheckedClick"/>

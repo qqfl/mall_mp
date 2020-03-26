@@ -7,6 +7,7 @@
     "w-goods-action": "./childCpts/goodsAction/index",
     "w-sale": "./childCpts/sale/index",
     "w-shop": "./childCpts/shop/index",
-    "w-more-img": "./childCpts/moreImg/index"
+    "w-more-img": "./childCpts/moreImg/index",
+    "van-toast": "@vant/weapp/toast/index"
   }
 }

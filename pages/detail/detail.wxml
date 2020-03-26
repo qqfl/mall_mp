@@ -6,7 +6,7 @@
   <view class="splitLine"></view>
   <w-postage/>
   <view class="splitLine"></view>
-  <w-color-size info="{{detail}}"/>
+  <w-color-size id="colorSize" bind:addCart="addCart" info="{{detail}}"/>
   <view class="splitLine"></view>
   <w-sale info="{{detail}}"/>
   <view class="splitLine"></view>
@@ -14,4 +14,5 @@
   <view class="splitLine"></view>
   <w-more-img info="{{detail}}" parent-class="myWrap"/>
 </scroll-view>
-<w-goods-action/>
+<w-goods-action goodsNum="{{goodsNum}}" bind:addToCart="openColorSize"/>
+<van-toast id="van-toast" />

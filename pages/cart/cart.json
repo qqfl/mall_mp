@@ -1,5 +1,7 @@
 {
   "usingComponents": {
+    "w-submit": "./childCpts/cartSubmit/index",
+    "w-goods-item": "./childCpts/goodsItem/index"
   },
   "navigationBarTitleText": "购物车"
 }
