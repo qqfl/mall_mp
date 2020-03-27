@@ -1,2 +1,9 @@
-<w-goods-item info="{{cartList}}" bind:checkBoxChange="checkBoxClick" class="cartList"/>
-<w-submit id="submit" cartLength="{{cartLength}}" totalPrice="{{totalPrice}}" bind:allCheckedClick="allCheckedClick"/>
+<view wx:if="{{cartList.length !== 0}}">
+  <w-goods-item info="{{cartList}}" bind:checkBoxChange="checkBoxClick" bind:cartDelete="cartDelete" class="cartList"/>
+  <w-submit id="submit" cartLength="{{cartLength}}" totalPrice="{{totalPrice}}" bind:allCheckedClick="allCheckedClick"/>
+</view>
+<view wx:else class="cartNull">
+  <van-icon class="icon" name="cart-o" />
+  <view>购物车为空</view>
+</view>
+<view>{{sum}}</view>

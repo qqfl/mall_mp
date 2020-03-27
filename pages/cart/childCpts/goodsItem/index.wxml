@@ -11,7 +11,7 @@
       thumb="{{item.color[item.my_ci].img}}"
     >
       <view slot="footer">
-        <van-button size="mini" type="danger">删除</van-button>
+        <van-button size="mini" type="danger" bind:tap="cartDelete" data-id="{{item.id}}">删除</van-button>
       </view>
     </van-card>
   </view>

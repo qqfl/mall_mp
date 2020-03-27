@@ -13,13 +13,13 @@ Component({
       goCart(){
         wx.switchTab({
           url: '/pages/cart/cart',
-          success(){
+          /*success(){
             const page = getCurrentPages().pop();
             if (page === undefined || page === null){
               return;
             }
-            page.onLoad();
-          }
+            page.onLoad();     // 在cart页面用onShow解决数据不刷新的问题
+          }*/
         })
       }
     }

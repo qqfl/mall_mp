@@ -1,5 +1,8 @@
 {
   "usingComponents": {
+    "w-info": "./childCpts/pfInfo/index",
+    "w-price": "./childCpts/pfPrice/index",
+    "w-cell": "./childCpts/pfCell/index"
   },
   "navigationBarTitleText": "我的"
 }
