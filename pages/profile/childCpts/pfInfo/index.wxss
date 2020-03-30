@@ -1,0 +1,18 @@
+.my{
+  background-color: #ff869b;
+  color: #ffffff;
+}
+.icon{
+  display: inline-block;
+  font-size: 120rpx;
+  vertical-align: middle;
+  margin-right: 40rpx;
+}
+.info{
+  display: inline-block;
+  vertical-align: middle;
+}
+.phone{
+  vertical-align: text-bottom;
+  font-size: 32rpx;
+}

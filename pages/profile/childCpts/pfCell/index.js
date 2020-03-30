@@ -1,5 +1,10 @@
 Component({
-    properties: {},
+    properties: {
+      myInfo:{
+        type:Object,
+        value:{},
+      }
+    },
     data: {},
     methods: {}
 });

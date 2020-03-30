@@ -1,1 +1,9 @@
-<view>profile</view>
+<w-info/>
+<w-price price="{{price}}" discount="{{discount}}" point="{{point}}"/>
+<view class="splitLine"></view>
+<w-cell myInfo="{{cell_comment}}"/>
+<w-cell myInfo="{{cell_point}}"/>
+<view class="splitLine"></view>
+<w-cell myInfo="{{cell_gem}}"/>
+<w-cell myInfo="{{cell_shopping}}"/>
+<w-cell myInfo="{{cell_bag}}"/>

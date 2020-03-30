@@ -1,0 +1,6 @@
+<van-cell is-link>
+  <view slot="title">
+    <van-icon name="{{myInfo.icon}}" class="icon" />
+    <text class="van-cell-text">{{myInfo.text}}</text>
+  </view>
+</van-cell>

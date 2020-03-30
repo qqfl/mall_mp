@@ -1,0 +1,7 @@
+.icon{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 36rpx;
+  margin-right: 16rpx;
+  color: #fc275a;
+}

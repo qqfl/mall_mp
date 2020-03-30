@@ -1,0 +1,14 @@
+<van-grid column-num="3">
+  <van-grid-item use-slot>
+    <view><text class="number">{{formatPrice}}</text>元</view>
+    <view class="text">我的余额</view>
+  </van-grid-item>
+  <van-grid-item use-slot>
+    <view><text class="number">{{discount}}</text>个</view>
+    <view class="text">我的优惠</view>
+  </van-grid-item>
+  <van-grid-item use-slot>
+    <view><text class="number">{{point}}</text>分</view>
+    <view class="text">我的积分</view>
+  </van-grid-item>
+</van-grid>
